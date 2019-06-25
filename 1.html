@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Carrot Field</title>
+
+
+  </head>
+  <body>
+    <h1><a href="#">JavaScript</a></h1>
+
+    <input type="button" value="night"
+    onclick="
+    var target = document.querySelector('body');
+    var target2 = document.querySelector('a');
+    if ( this.value === 'night') {
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'day';
+
+
+    } else {
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'night';
+      
+
+    }">
+
+
+
+  </body>
+</html>
